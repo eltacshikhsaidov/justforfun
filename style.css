@@ -1,0 +1,82 @@
+
+body{
+	width: 50%;
+	text-align: center;
+	padding-left: 25%;
+	padding-top: 10%;
+	border-radius: 10px;
+	background: #4568DC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #B06AB3, #4568DC);
+}
+
+h1{
+	font-family: 'Courgette', cursive;
+}
+
+.polaroid{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#first_red{
+	background: #fe0002;
+	height: 200px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+#last_red{
+	background: #fe0002;
+	height: 40px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.white{
+	background: white;
+	height: 15px;
+}
+#green{
+	background: green;
+	height: 30px;
+}
+
+
+.eagle{
+	margin-top: 20px;
+	width: 150px;
+}
+
+.alp{
+	margin-top: 8.5px;
+	width: 120px;
+}
+
+img.eagle:hover{
+	transition: 2s;
+	width: 180px;
+}
+
+img.alp:hover{
+	transition: 2s;
+	text-align: left;
+}
+
+div.polaroid {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+div.polaroid:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
+  text-align: center;
+  transition: 1s;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: lightblue;
+  }
+}
